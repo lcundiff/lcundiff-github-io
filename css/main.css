@@ -706,6 +706,10 @@ input[type="button"]:focus {
 	color: #000000;
 	outline: 0;
 }
+.bg-primary {
+	background: #001F51;
+	color: #e9f3ff !important;
+}
 .button.button-primary,
 a.button.button-primary,
 button.button-primary,
@@ -713,7 +717,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
 	background: #001F51;
-	color: #BFDCFF;
+	color: #e9f3ff;
 }
 .button.button-primary:hover,
 a.button.button-primary:hover,
@@ -1318,7 +1322,7 @@ header .logo a {
   width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background: #1B3F80 url("../images/logan.png") no-repeat center bottom;
+	background: #1B3F80 url("../images/background.webp") no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1352,11 +1356,9 @@ header .logo a {
   font-size: 1.5vw !important;
 }
 .intro-block .nextProject{
-  width:50%;
-  float:right;
-  heigth:100%;
   margin:0 auto;
-  font-size: 1vw;
+  font-size: 1.1rem;
+	vertical-align: middle;
 }
 .intro-block .learnMore{
   font-size: 1vw;
@@ -1536,7 +1538,7 @@ header .logo a {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 11rem;
+	padding-top: 7rem;
 	padding-bottom: 14rem;
 }
 #about .section-intro {
@@ -2286,7 +2288,7 @@ header .logo a {
 }
 #services {
   min-width:100%;
-	background: #313131 url(../images/bg.webp) no-repeat center;
+	background: #313131 url(../images/background.webp) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
