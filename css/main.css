@@ -1332,9 +1332,6 @@ header .logo a {
 	text-align: center;
     display: table;
 }
-#intro p strong,em{
-  font-size:2vw !important;
-}
 #flip {
     transform: scaleX(-1);
 }
@@ -1358,6 +1355,7 @@ header .logo a {
 .intro-block .nextProject{
   margin:0 auto;
   font-size: 1.1rem;
+	display: inline-block;
 	vertical-align: middle;
 }
 .intro-block .learnMore{
